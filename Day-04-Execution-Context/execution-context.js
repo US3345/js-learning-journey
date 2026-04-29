@@ -141,5 +141,11 @@ addNum()
 removed
 
 
-
+ 1. JavaScript first creates Global Execution Context
+// 2. Code runs in 2 phases (Memory + Execution)
+// 3. Variables = undefined in memory phase
+// 4. Functions are fully stored in memory phase
+// 5. Each function call creates new execution context
+// 6. Call stack manages execution
+// 7. JS is single threaded
 7. JS is single threaded
